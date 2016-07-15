@@ -1,0 +1,3 @@
+<input type="button" value='prev' ng-if='links.prev'ng-click='newIds(links.prev.href)'>
+<input type="button" value='next' ng-if='links.next' ng-click='newIds(links.next.href)'>
+<li ng-repeat="person in people">personId: {{person.id}}</li>
